@@ -1,8 +1,11 @@
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.9.2
-seaborn==0.13.2
-scikit-learn==1.5.1
-xgboost==2.1.1
-imbalanced-learn==0.12.3
-joblib==1.4.2
+# This file lists the Python packages required to run the project.
+# You can install all of these packages by running: pip install -r requirements.txt
+
+numpy==1.26.4  # For numerical operations and array manipulation
+pandas==2.2.2  # For data manipulation and analysis, especially for handling CSV files
+matplotlib==3.9.2  # For creating static, animated, and interactive visualizations
+seaborn==0.13.2  # For statistical data visualization; based on matplotlib
+scikit-learn==1.5.1  # For machine learning tools, including classification, regression, and clustering
+xgboost==2.1.1  # For efficient and scalable gradient boosting models
+imbalanced-learn==0.12.3  # For handling imbalanced datasets, e.g., by over-sampling or under-sampling
+joblib==1.4.2  # For saving and loading Python objects, used here to save trained models
